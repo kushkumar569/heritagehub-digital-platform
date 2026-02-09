@@ -1,11 +1,4 @@
-Got it 👍
-Here’s a **clean, correct README.md** that matches **your current `package.json` setup (npm + Turborepo)** and **HeritageHub project**.
 
-Just copy-paste this.
-
----
-
-```md
 # HeritageHub – Digital Platform for Culture & Heritage
 
 HeritageHub is a full-stack web platform that connects travelers, local guides, vloggers, and vendors to promote culture and heritage digitally.  
@@ -50,8 +43,6 @@ The platform enables local vendors to sell crafts, guides to assist travelers, a
 
 ## 📂 Monorepo Structure
 
-```
-
 apps/
 web/        → Next.js frontend
 
@@ -59,9 +50,6 @@ packages/
 ui/         → Shared UI components
 config/     → Shared TypeScript & ESLint configurations
 
-````
-
----
 
 ## ⚙️ Getting Started
 
