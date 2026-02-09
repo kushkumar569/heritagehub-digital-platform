@@ -1,84 +1,128 @@
-# Turborepo starter
+Got it 👍
+Here’s a **clean, correct README.md** that matches **your current `package.json` setup (npm + Turborepo)** and **HeritageHub project**.
 
-This Turborepo starter is maintained by the Turborepo core team.
+Just copy-paste this.
 
-## Using this example
+---
 
-Run the following command:
+```md
+# HeritageHub – Digital Platform for Culture & Heritage
 
-```sh
-npx create-turbo@latest
-```
+HeritageHub is a full-stack web platform that connects travelers, local guides, vloggers, and vendors to promote culture and heritage digitally.  
+The platform enables local vendors to sell crafts, guides to assist travelers, and vloggers to share content—all within a single ecosystem.
 
-## What's inside?
+---
 
-This Turborepo includes the following packages/apps:
+## 🚀 Features
 
-### Apps and Packages
+- Multi-role system: Travelers, Guides, Vloggers, and Local Vendors  
+- E-commerce system for selling local crafts  
+- Real-time chat using WebSocket  
+- Role-based authentication and authorization  
+- High-performance content delivery using Redis caching  
+- SEO-optimized frontend with server-side rendering  
+- Scalable backend architecture  
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+---
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+## 🛠️ Tech Stack
 
-### Utilities
+### Frontend
+- Next.js  
+- TypeScript  
+- Tailwind CSS  
 
-This Turborepo has some additional tools already setup for you:
+### Backend
+- Node.js  
+- Express.js  
+- Prisma ORM  
+- MySQL  
+- Redis  
+- WebSocket  
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+### DevOps & Tooling
+- Turborepo (Monorepo)  
+- GitHub Actions  
+- ESLint  
+- Prettier  
 
-### Build
+---
 
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
-
-Turborepo can use a technique known as [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
+## 📂 Monorepo Structure
 
 ```
-cd my-turborepo
-npx turbo login
+
+apps/
+web/        → Next.js frontend
+
+packages/
+ui/         → Shared UI components
+config/     → Shared TypeScript & ESLint configurations
+
+````
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/kushkumar569/heritagehub-digital-platform.git
+cd heritagehub-digital-platform
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
 ```
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+### 3. Setup environment variables
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+Create a `.env` file inside `apps/web` and add:
 
 ```
-npx turbo link
+JWT_SECRET
+
+EMAIL_USER
+EMAIL_PASS
+BASE_URL
+PORT
+GOOGLE_API_KEY
 ```
 
-## Useful Links
+### 4. Run the project
 
-Learn more about the power of Turborepo:
+```bash
+npm run dev
+```
 
-- [Tasks](https://turborepo.com/docs/crafting-your-repository/running-tasks)
-- [Caching](https://turborepo.com/docs/crafting-your-repository/caching)
-- [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching)
-- [Filtering](https://turborepo.com/docs/crafting-your-repository/running-tasks#using-filters)
-- [Configuration Options](https://turborepo.com/docs/reference/configuration)
-- [CLI Usage](https://turborepo.com/docs/reference/command-line-reference)
+---
+
+## 🧠 Key Implementations
+
+* Prisma ORM for database schema management and migrations
+* Redis caching for faster response times and improved scalability
+* WebSocket-based real-time communication
+* Server-side rendering with Next.js for SEO optimization
+* Clean and scalable monorepo architecture using Turborepo
+
+---
+
+## 📌 Future Enhancements
+
+* Payment gateway integration
+* Map-based discovery for guides and heritage locations
+* Review and rating system
+* Progressive Web App (PWA) support
+
+---
+
+## 👤 Author
+
+**Kush Kumar**
+
+* GitHub: [https://github.com/kushkumar569](https://github.com/kushkumar569)
+* LinkedIn: [https://www.linkedin.com/in/kush-kumar-876525257/](https://www.linkedin.com/in/kush-kumar-876525257/)
+
